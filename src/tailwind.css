@@ -1,0 +1,40 @@
+
+/* Pinegrow generated Design Panel Init Begin */
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900|Lato:100,200,300,400,500,600,700,800,900&display=swap');
+
+
+    /* Pinegrow generated Design Panel Init End */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	h1 {
+		@apply text-2xl;
+	}
+	h2 {
+		@apply text-xl;
+	}
+}
+
+/* @layer components {
+	.btn-blue {
+		@apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+	}
+} */
+
+@layer utilities {
+	.filter-none {
+		filter: none;
+	}
+	.filter-grayscale {
+		filter: grayscale(100%);
+	}
+}
+
+/* Pinegrow generated Design Panel Extra Rules Begin */
+body, html {
+    min-height: 100vh;
+}
+
+    /* Pinegrow generated Design Panel Extra Rules End */

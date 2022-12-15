@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="/dist/assets/css/output.css" rel="stylesheet"/>
+        <link href="/dist/assets/css/uno.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="app">
+            <figure class="bg-slate-100 dark:bg-slate-800 p-8 rounded-xl md:flex md:p-0">
+                <img class="h-28 mx-auto rounded-full w-24 md:h-auto md:rounded-none md:w-48" src="https://tailwindcss.com/_next/static/media/sarah-dayan.a8ff3f1095a58085a82e3bb6aab12eb2.jpg" alt="" width="384" height="512"/>
+                <div class="flex flex-col items-center pt-6 space-y-4 text-center md:items-start md:p-8 md:text-left">
+                    <Icon name="my-icons:pg-logo-name-color" width="200px" height="40px"></Icon>
+                    <blockquote>
+                        <p class="text-lg font-medium"><span>Vite</span><Icon name="logos:vitejs" class="inline-flex mx-1" size="24px"></Icon><span>provides a lightning fast development server, a powerful plugins system and various other amazing features. It can be used to JIT compile your&nbsp;</span><Icon name="logos:tailwindcss-icon" class="inline-flex mx-1" size="24px"></Icon><span>tailwind styles, bundle and process your es-modules and other assets. This "external build" workflow can be used in place of postcss when working on your tailwind projects in Pinegrow.”</span></p>
+                    </blockquote>
+                    <div class="mt-20">
+                        <span> Confetti ES module</span>
+                        <Icon name="noto:confetti-ball" class="inline-flex inline-icon ml-2" size="24px"></Icon>
+                        <span class="ml-2">- Vite (lib mode) takes care of auto-compiling (watch mode) such
+							es-modules. Disable the confetti by commenting-out the click
+							listener in <code>src/main.js</code>. </span>
+                    </div>
+                    <div class="mt-20">
+                        <span> Over 100,000 Iconify Icons! </span>
+                        <Icon name="line-md:iconify1" class="inline-flex inline-icon ml-2" size="24px"></Icon>
+                        <span class="ml-2">- Yes, you heard it right! Unocss preset-icons helps treeshakes and bundles only the icons used in your markup. Use them either as a ready-made web component (or) as a vue component. Check the&nbsp;<code>modules</code> folder for usage.&nbsp;<a href="https://github.com/unocss/unocss" class="text-sky-500">Learn more!</a></span>
+                    </div>
+                    <div class="flex justify-center w-full">
+                        <iconify-icon icon="arcticons:weawow" height="60"></iconify-icon>
+                    </div>
+                    <div class="flex flex-col items-center w-full sm:flex-row sm:justify-between">
+                        <figcaption class="font-medium">
+                            <div class="text-sky-500 dark:text-sky-400">Citizen Kane</div>
+                            <div class="text-slate-700 dark:text-slate-500">
+                                DevRel, Pinegrow
+</div>
+                        </figcaption>
+                        <div class="mt-2 sm:mt-0">
+                            <a class="dark:text-sky-400 flex hover:text-red-600 items-center text-sky-500" href="https://github.com/TechAkayy/pg-tailwind3-vite-app" target="_blank"> <Icon name="test-github" size="20px" class="inline-flex"></Icon> <span class="ml-2 mr-1"> Clone/Fork template! </span> </a>
+                        </div>
+                    </div>
+                </div>
+            </figure>
+        </div>
+        <script type="module" src="/dist/main.js"></script>
+    </body>
+</html>
