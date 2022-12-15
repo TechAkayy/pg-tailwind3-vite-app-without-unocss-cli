@@ -3,9 +3,7 @@
 	"version": "1.0.0",
 	"description": "Pinegrow tailwind external build with Vite",
 	"scripts": {
-		"dev": "npm-run-all --parallel watch uno-watch",
 		"watch": "vite build --watch",
-		"uno-watch": "unocss --watch",
 		"build": "vite build"
 	},
 	"devDependencies": {
